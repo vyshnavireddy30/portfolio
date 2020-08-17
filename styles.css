@@ -1,0 +1,189 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+.home-page {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: -webkit-linear-gradient(0deg, #776d8a 50%, #eeeeee 50%);
+}
+
+/* Navbar */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+
+
+nav ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 40px;
+    color: #151515;
+    padding: 8px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    transition: .5s;
+    font-size: 120%;
+}
+
+nav ul li a.active {
+    background: #E2472F;
+    color: #fff;
+    border-radius: 6px;
+}
+
+
+/* Home page */
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1);
+}
+
+
+.intro-text {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.intro-text span {
+    color: #fff;
+}
+
+.icons ul li {
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.icons ul li a {
+    color: black;
+}
+
+.icons {
+    float: right;
+    position: relative;
+    top: 160px;
+    right: 20px;
+}
+
+.icons ul li a i:hover {
+    transition: .5s;
+    font-size: 250%;
+}
+
+/*
+
+/* Contact Page 
+
+.contact-heading {
+    position: absolute;
+    background-color: #776d8a;
+    height: 100vh;
+    width: 25vw;
+}
+
+.contact-heading h2 {
+    color: white;
+    padding: 40px 20px;
+}
+
+.heading-wrapper {
+    float: right;
+    position: relative;
+    top: 100px;
+}
+
+.data-wrapper {
+    position: relative;
+    left: 25vw;
+    top: 110px;
+}
+
+.data-wrapper h4 {
+    margin: 0;
+    padding: 55px 20px;
+}
+
+/* Skills Page 
+
+.line {
+    width: 2px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills-page {
+    width: 50%;
+    height: 65%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.rating {
+    float: right;
+    position: relative;
+    right: 25%;
+    top: 5%;
+}
+
+.rating li i {
+    color: #776d8a;
+}
+
+.skill {
+    position: relative;
+    left: 25%;
+    top: 5%;
+}
+
+.skills-page li {
+    list-style: none;
+    padding: 15px 15px;
+}
+
+*/
